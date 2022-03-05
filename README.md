@@ -1,6 +1,6 @@
 ## Getting Started with todo-app
 
-This project is a ToDo app. You can add your "todo"s to the list or remove them from the list. The app have also a search function.
+This project is a ToDo app. You can add your todo's to the list or remove them from the list. The app have also a search function.
 
 ## Available Scripts
 
