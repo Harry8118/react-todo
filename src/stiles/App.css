@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  border: 2px solid teal;
+  width: 800px;
+  padding: 20px;
+  margin: 50px;
+}
+
+.post {
+  display: flex;
+  padding: 15px;
+  margin: 15px 0;
+  border: 3px solid teal;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__title {
+  color: teal;
+}
+
+.post-enter {
+  transform: translateX(-350px);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
